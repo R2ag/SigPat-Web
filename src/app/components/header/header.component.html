@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <a mat-button routerLink="/home" class="topbar-button">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" fontIcon="home"></mat-icon>
+      <span class="btn-txt">SIGPAT</span>
+    </a>  
+    <span class="example-spacer"></span>
+    <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" fontIcon="account_circle"></mat-icon>
+      <span class="btn-txt">Username</span>
+    </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Perfil</button>
+        <button mat-menu-item>Configurações</button>
+        <button mat-menu-item>Sair</button>
+      </mat-menu> 
+  </mat-toolbar-row>
+</mat-toolbar>
