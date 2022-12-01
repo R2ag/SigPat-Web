@@ -14,6 +14,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { LocationComponent } from './views/location/location.component';
+import { UsersComponent } from './views/users/users.component';
+import { PropertyComponent } from './views/property/property.component';
+import { ReportComponent } from './views/report/report.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    LocationComponent,
+    UsersComponent,
+    PropertyComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,
