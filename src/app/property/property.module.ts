@@ -7,24 +7,23 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home/home.component';
+import { PropertyRoutingModule } from './property-routing.module';
+import { PropertyComponent } from './property/property.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
     FooterComponent,
-    HeaderComponent
-
+    HeaderComponent,
+    PropertyComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,
+    PropertyRoutingModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
     MatCardModule
   ]
 })
-export class HomeModule { }
+export class PropertyModule { }

@@ -7,24 +7,23 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home/home.component';
+import { ReportRoutingModule } from './report-routing.module';
+import { ReportComponent } from './report/report.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
     FooterComponent,
-    HeaderComponent
-
+    HeaderComponent,
+    ReportComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,
+    ReportRoutingModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
     MatCardModule
   ]
 })
-export class HomeModule { }
+export class ReportModule { }

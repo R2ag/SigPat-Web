@@ -54,14 +54,3 @@ div{
   position: relative;
   text-align: left;
 }
-
-.info-input{
-  display: inline-flex;
-  align-items: baseline;
-  box-sizing: border-box;
-  width: 100%;
-  border-width: 0px 0px 1px 0px;
-  border-bottom-style:solid;
-  margin: 0;
-
-}

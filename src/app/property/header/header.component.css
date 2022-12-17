@@ -1,0 +1,60 @@
+.example-icon {
+  padding: 0 0px;
+  color: white;
+}
+
+.btn-txt{
+  color: white;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.topbar{
+  font-size: 1.5rem;
+}
+
+.topbar-button{
+  margin: 8px 8px 8px 0;
+  height: 16px;
+  padding: 1rem;
+  
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
